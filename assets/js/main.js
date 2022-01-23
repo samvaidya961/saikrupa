@@ -4,6 +4,12 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+function loadGoogleTranslate() {
+  new google.translate.TranslateElement("google_element");
+}
+
+
 (function() {
   "use strict";
 
